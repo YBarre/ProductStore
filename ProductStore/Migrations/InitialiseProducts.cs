@@ -8,6 +8,7 @@ namespace ProductStore.Migrations
 {
     public static class InitialiseProducts
     {
+        // jj
         public static void go()
         {
             const String partitionName = "Products_Partition_1";

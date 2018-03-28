@@ -1,7 +1,7 @@
 ﻿using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Table;
 using ProductStore.Models;
-//using Swashbuckle.Swagger.Annotations;
+using Swashbuckle.Swagger.Annotations;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -86,7 +86,7 @@ namespace ProductStore.Controllers
         /// </summary>
         /// <param name="product"></param>
         /// <returns></returns>
-        //[SwaggerResponse(HttpStatusCode.Created)]
+        [SwaggerResponse(HttpStatusCode.Created)]
         [ResponseType(typeof(Product))]
         public IHttpActionResult PostProduct(Product product)
         {
@@ -115,7 +115,7 @@ namespace ProductStore.Controllers
         /// <param name="id"></param>
         /// <param name="product"></param>
         /// <returns></returns>
-        //[SwaggerResponse(HttpStatusCode.NoContent)]
+        [SwaggerResponse(HttpStatusCode.NoContent)]
         [ResponseType(typeof(void))]
         public IHttpActionResult PutProduct(string id, Product product)
         {

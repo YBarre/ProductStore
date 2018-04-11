@@ -2,13 +2,20 @@
 // Note the methods to call the server have been generated as part of the REST API client and have 
 //   application specific names e.g. client.Products.PostProductWithHttpMessagesAsync()
 
-using Microsoft.Rest;
-using ProductStoreClient.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+using ProductStoreClient.Models;
+using Microsoft.Rest;
+using System.Net.Http;
+using System.Net;
+using System.IO;
+using System.Web;
+using System.Diagnostics;
+using System.Security.Permissions;
 
 
 

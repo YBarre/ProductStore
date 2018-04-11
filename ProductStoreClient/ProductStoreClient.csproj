@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnonymousCredential.cs" />
     <Compile Include="ProductStore\IProducts.cs" />
     <Compile Include="ProductStore\IProductStore.cs" />
     <Compile Include="ProductStore\Models\Product.cs" />
